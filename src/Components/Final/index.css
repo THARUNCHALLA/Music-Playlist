@@ -1,0 +1,46 @@
+li {
+  list-style-type: none;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.imageContainer {
+  display: flex;
+  align-items: center;
+}
+.listImage {
+  height: 100px;
+  width: 160px;
+  margin-right: 20px;
+}
+.listHead {
+  font-family: 'roboto';
+  font-size: 18px;
+  color: white;
+}
+.genre {
+  font-family: 'roboto';
+  font-size: 18px;
+  color: #3b82f6;
+}
+.lastContainer {
+  display: flex;
+  align-items: center;
+  margin-right: 24px;
+}
+.duration {
+  font-family: 'roboto';
+  color: white;
+  margin-right: 34px;
+}
+.delete-btn {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.deleteIcon {
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+}
